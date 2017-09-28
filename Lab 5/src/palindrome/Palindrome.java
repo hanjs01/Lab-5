@@ -20,10 +20,7 @@ public class Palindrome {
 	public static boolean isaPalindrome(String str)
 	{	
 		
-		if(str.length()==0)
-			return false;
-		
-		if(str.length()==1)
+		if(str.length()==0 || str.length()==1)
 			return false;
 		
 		if(str.charAt(0)==(str.charAt(str.length()-1)))
